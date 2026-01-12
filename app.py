@@ -6,6 +6,7 @@ model = joblib.load("house_price_model.pkl")
 columns = joblib.load("feature_columns.pkl")
 
 st.title("Predict House Price")
+st.write("By : Jovidia Laviosa - Hands on Digistar Club Day 3")
 
 inputs = {}
 
